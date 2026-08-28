@@ -16,3 +16,9 @@ Inspect repositories with read-only analysis. Produce evidence-backed summaries 
 5. Separate measured facts from inferences.
 
 Never print secret contents, tokens, private keys, or full environment files.
+
+<!-- JIT-HARNESS:START -->
+## Harness contract
+
+For runtime adaptation or benchmarking, read [docs/JIT-HARNESS.md](docs/JIT-HARNESS.md) and validate [harness/manifest.json](harness/manifest.json). Treat the manifest as a planning and verification contract, not as authority to invoke tools. Preserve the skill's existing approval boundaries, stop on permission ambiguity, and do not claim successful execution without re-reading the resulting artifact or state.
+<!-- JIT-HARNESS:END -->
